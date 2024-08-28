@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       div#area { 
+        background: rgb(117, 150, 117);
+        color: white;
+        width: 200px;
+        height: 200px;
+        line-height: 200px;
+        text-align: center;
+    }
+    </style>
+</head>
+<body>
+    <div id="area" onclick="clicar()">
+        interaja...
+    </div>
+
+    <script>
+        function clicar() {
+            var a = window.document.getElementById('area')
+             a.innertext = 'clicou'
+        }
+    </script>
+</body>
+</html>
